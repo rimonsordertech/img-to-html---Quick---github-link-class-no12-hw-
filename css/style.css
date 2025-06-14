@@ -1,0 +1,218 @@
+/* common start */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* common end */
+
+/* header start */
+header {
+    border-bottom: 1px solid #B3B6B9;
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 23%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    margin-top: 5px;
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0 20px;
+    display: inline-block;
+    color: #253A66;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+/* header end */
+
+/* banner start */
+.banner {
+    padding: 60px 0;
+}
+
+.container2 {
+    width: 50%;
+    margin: 0 auto;
+    /*border: 1px solid green;*/
+}
+
+.b_content {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #EEF0F3;
+}
+
+.b_content h1 {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 700;
+    color: #253A66;
+}
+
+.b_content h2 {
+    margin: 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    color: #008AFF;
+}
+
+.b_content p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #253A66;
+    line-height: 1.6;
+    word-spacing: 1px;
+}
+
+.b_img {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.b_img img {
+    width: 100%;
+}
+/* banner end */
+
+/* success start */
+.success {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+.s_content {
+    overflow: hidden; /*clearfix*/
+}
+
+.s-left {
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.s-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #F15767;
+    margin: 0 0 10px;
+}
+
+.s-left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #253A66;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.s-right {
+    width: 56%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.s-right h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #253A66;
+    margin: 0;
+}
+/* success end */
+
+/* feature start */
+.feature {
+    padding: 40px 0;
+}
+
+.f-content {
+    overflow: hidden; /*clearfix*/
+}
+
+.f-single {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    color: #253A66;
+    padding: 19px 6px 50px;
+    box-sizing: border-box;
+}
+
+/* শেষ আইটেমে মুছে দাও মার্জিন-রাইট */
+.f-single:last-child {
+    margin-right: 0;
+}
+
+.pink {
+    background-color: #FDEBED;
+}
+
+.green {
+    background-color: #EBF9F4;
+}
+
+.yellow {
+    background-color: #FFF7E8;
+}
+
+.f-image {
+    margin-bottom: 15px;
+}
+
+.f-image img {
+    width: 100%;
+    display: block;
+}
+
+.f-single h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.f-single p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/* feature end */
